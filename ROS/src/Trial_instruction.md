@@ -5,7 +5,7 @@ The structure of ROS is a little different from Robot Raconteur. It has the Publ
 ## Catkin Workspace
 For each ROS project there's a dedicated catkin workspace, and in this trial the workspace is `~/python_turtle_trial/ROS` already created in the repo.
 ## Package
-Unlike RobotRaconteur, ROS requires the workspace to build the content. All packages should be in `workspace/src/` folder. In this repository there's already a webcam package (`~/python_turtle_trial/ROS/src/webcam/`), so you'll need to [create another package](http://wiki.ros.org/ROS/Tutorials/CreatingPackage) for python turtle:
+ROS requires the workspace to build the content. All packages should be in `workspace/src/` folder. In this repository there's already a webcam package (`~/python_turtle_trial/ROS/src/webcam/`), so you'll need to [create another package](http://wiki.ros.org/ROS/Tutorials/CreatingPackage) for python turtle:
 ```
 cd ~/python_turtle_trial/ROS
 catkin_create_pkg python_turtle std_msgs geometry_msgs rospy
